@@ -1,0 +1,11 @@
+Usage
+=====
+
+    git clone git://github.com/kylef/nginx-config.git /var/nginx/conf
+
+Adding a new site (php)
+=======================
+
+    cp sites-enabled/example.conf sites-enabled/site.conf
+    vim sites-enabled/site.conf
+
