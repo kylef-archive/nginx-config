@@ -6,6 +6,6 @@ Usage
 Adding a new site (php)
 =======================
 
-    cp sites-enabled/example.conf sites-enabled/site.conf
+    cp examples/example.conf sites-enabled/site.conf
     vim sites-enabled/site.conf
 
