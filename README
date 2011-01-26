@@ -3,9 +3,11 @@ Usage
 
     git clone git://github.com/kylef/nginx-config.git /var/nginx/conf
 
-Adding a new site (php)
-=======================
+Adding a new site
+=================
 
-    cp examples/example.conf sites-enabled/site.conf
+To add a new site please see the examples/ to find what base configuration you want to use. Then copy the example to sites-enabled and edit the example to suit your needs.
+
+    cp examples/<example>.conf sites-enabled/site.conf
     vim sites-enabled/site.conf
 
